@@ -24,8 +24,9 @@ install requests
 ```bash
 pip install requests
 ```
-add file called views.py on your project
+add file called views.py on your project (Write request function in views.py, with api
+from which you want Data.)
 
-edit file called urls.py
+edit file called urls.py (Set URL for that view function)
 
-add file home.html
+add file home.html (Display from template)
