@@ -1,0 +1,26 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+
+    {% if paragraphs %}
+        <h2>Paragraphs:</h2>
+        <ul>
+        {% for paragraph in paragraphs %}
+            <li>{{ paragraph }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No paragraphs found.</p>
+    {% endif %}
+
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
