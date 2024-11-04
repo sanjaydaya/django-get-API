@@ -30,3 +30,8 @@ from which you want Data.)
 edit file called urls.py (Set URL for that view function)
 
 add file home.html (Display from template)
+
+run project
+```bash
+python manage.py runserver
+```
