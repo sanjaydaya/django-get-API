@@ -17,3 +17,13 @@ create project
 ```bash
 django-admin startproject  <your project name>
 ```
+
+
+
+install requests
+```bash
+pip install requests
+```
+add file called views.py on your project
+edit file called urls.py
+add file home.html
