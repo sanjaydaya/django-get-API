@@ -1,1 +1,8 @@
-create new folder on code editor, open terinal on code editor, check python version` ``python --version``` , ```pip install django djangorestframework ```, ```django-admin startproject  <project name>```, 
+# GET API
+## django
+
+
+
+```bash
+python --version
+```
