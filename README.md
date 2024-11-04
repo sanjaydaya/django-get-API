@@ -25,5 +25,7 @@ install requests
 pip install requests
 ```
 add file called views.py on your project
+
 edit file called urls.py
+
 add file home.html
